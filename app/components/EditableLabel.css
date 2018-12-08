@@ -1,0 +1,27 @@
+.display {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.editIconBox {
+  display: none;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+
+.display:hover .editIconBox {
+  display: inline;
+}
+
+.input {
+  font-size: 1em;
+  background: transparent;
+  display: inline-block;
+  max-width: 100%;
+  color: white;
+  text-align: right;
+  border: none;
+  outline-color: transparent;
+}

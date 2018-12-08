@@ -1,0 +1,33 @@
+.activityLine {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.activityLabel {
+  flex: 0 1 9em;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+
+.activityBar {
+  flex: 1 1 auto;
+  position: relative;
+  margin: 0 10px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.activityItem {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.07);
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.1);
+}
