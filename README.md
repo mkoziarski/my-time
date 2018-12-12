@@ -24,7 +24,7 @@ Please refer to `electron-react-boilerplate`'s documentation for more informatio
 
 Note: the version of `electron-react-boilerplate` used is compatible with Node >=10.x <11. Use [nvm](https://github.com/creationix/nvm) to get a compatible Node version. This repository comes with an `.nvmrc` file for this purpose.
 
-## Major issues / unimplemented functionality
+## Major issues / missing functionality
 
 - No persistence. Logged activities will not be remembered across app restarts.
 
