@@ -43,7 +43,6 @@ const insertActivityIntoDaysEntry =
   // create activity entry in daysEntry:
   // assuming realtime event creation, either create the first event
   // or end the previous event for the day and create the new one
-  console.log(`inserting activity into day's entry, now: ${now.format()}`);
   return {
     ...daysEntry,
     entries: [
