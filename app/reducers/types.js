@@ -29,9 +29,16 @@ export type StateType = {
   +categories: Categories
 };
 
-export type StartLogEntryAction = { type: 'START_LOG_ENTRY', categoryId: string };
+export type StartLogEntryAction = {
+  type: 'START_LOG_ENTRY',
+  categoryId: string
+};
 
-export type EditCategoryAction = { type: 'EDIT_CATEGORY', id: string, name: string };
+export type EditCategoryAction = {
+  type: 'EDIT_CATEGORY',
+  id: string,
+  name: string
+};
 
 export type Action =
   | StartLogEntryAction
