@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`categories reducer handles EDIT_CATEGORY 1`] = `
+Array [
+  Object {
+    "id": "f5e96125-4abb-416a-aa36-03d2bac923a9",
+    "name": "changed name",
+  },
+]
+`;
+
+exports[`categories reducer handles unknown action 1`] = `
+Array [
+  Object {
+    "id": "f5e96125-4abb-416a-aa36-03d2bac923a9",
+    "name": "sample name",
+  },
+]
+`;
